@@ -14,6 +14,15 @@ Todo 3 : Generate an HTML report for both the load test and the stress test. Als
 <img width="497" height="499" alt="image" src="https://github.com/user-attachments/assets/55b42802-7dbf-4367-853a-cc9cf73d9b58" />
 
 ## How to Run The project?
+   ## Prerequisites
+
+Install Apache JMeter
+ (v5.6 or above recommended)
+
+Java 8+ installed on your system
+
+Clone this repository
+
 First save the Jmx file, and open it in Jmeter. Then add the neccessary Headers, Gaussian Timer, Random Variables and User Defined Variables.
 
 Here is the login url:- https://restful-booker.herokuapp.com/auth . Body: { "username": "admin", "password": "password123" }
